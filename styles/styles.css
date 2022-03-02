@@ -1,0 +1,33 @@
+/* 
+#0084F8 -b200 - blue
+#001b36 - d400 - dark blue
+#ffffff - white - white
+#58c2f1 - b100 - light blue
+#ff8576 - r100 - salmon
+#47c2b1 - g100 - pastel green
+#f0f5f9 - d100 - eggshell
+#c9d6df - d200 - light grey
+#52616b - d300 - dark grey
+
+Tints: mix base color with white. Increments of 10% opacity
+
+Shades: mix base color with black. Increments of 10% opacity
+*/
+
+main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cities {
+    background-color: limegreen;
+}
+
+.landmarks {
+    background-color: aqua;
+}
+
+.citizens {
+    background-color: red;
+}
