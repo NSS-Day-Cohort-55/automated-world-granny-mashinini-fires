@@ -1,21 +1,21 @@
 export const swissCities = [
     {
-        name: "Seoul",
-        population: "9.8 million",
-        description: "This is a fun city",
-        link: "https://en.wikipedia.org/wiki/Seoul"
+        name: "Gruyeres",
+        population: "1,753",
+        description: "Gruyeres is a town in the district of Gruyere in the canton of Fribourg in Switzerland.",
+        link: "https://en.wikipedia.org/wiki/Gruy%C3%A8res"
     },
     {
-        name: "Busan",
-        population: "3.4 million",
-        description: "This is another fun city",
-        link: "https://en.wikipedia.org/wiki/Busan"
+        name: "Zermatt",
+        population: "5,800",
+        description: "Zermatt is a municipality in the district of Visp in the German-speaking section of the canton of Valais in Switzerland.",
+        link: "https://en.wikipedia.org/wiki/Zermatt"
     },
     {
-        name: "Daegu",
-        population: "2.4 million",
-        description: "This is yet another fun city",
-        link: "https://en.wikipedia.org/wiki/Daegu"
+        name: "Basel",
+        population: "175,000",
+        description: "Basel is a city in northwestern Switzerland on the river Rhine, located on the borders with France and Germany.",
+        link: "https://en.wikipedia.org/wiki/Basel"
     }
     
 ]
