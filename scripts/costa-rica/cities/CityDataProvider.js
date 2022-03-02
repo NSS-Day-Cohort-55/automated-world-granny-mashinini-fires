@@ -1,21 +1,21 @@
 export const costaRicanCities = [
     {
-        name: "Seoul",
-        population: "9.8 million",
-        description: "This is a fun city",
-        link: "https://en.wikipedia.org/wiki/Seoul"
+        name: "San Jose",
+        population: "342,188",
+        description: "Costa Rica's capital.",
+        link: "https://en.wikipedia.org/wiki/San_Jos%C3%A9,_Costa_Rica"
     },
     {
-        name: "Busan",
-        population: "3.4 million",
-        description: "This is another fun city",
-        link: "https://en.wikipedia.org/wiki/Busan"
+        name: "Cartago",
+        population: "156,600",
+        description: "Country's first successful establishment",
+        link: "https://en.wikipedia.org/wiki/Cartago,_Costa_Rica"
     },
     {
-        name: "Daegu",
-        population: "2.4 million",
-        description: "This is yet another fun city",
-        link: "https://en.wikipedia.org/wiki/Daegu"
+        name: "Limon",
+        population: "61,072",
+        description: "Hosts Carnaval every year in October",
+        link: "https://en.wikipedia.org/wiki/Lim%C3%B3n"
     }
     
 ]

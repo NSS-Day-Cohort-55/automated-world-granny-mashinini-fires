@@ -1,21 +1,21 @@
 export const costaRicanLandmarks = [
     {
-        name: "Seoul",
-        year: "9.8 million",
-        description: "This is a fun city",
-        link: "https://en.wikipedia.org/wiki/Seoul"
+        name: "Monteverde Cloud Forest",
+        year: "Est. 1972",
+        description: "Reserve of six different ecological zones.",
+        link: "https://en.wikipedia.org/wiki/Monteverde_Cloud_Forest_Reserve"
     },
     {
-        name: "Busan",
-        year: "3.4 million",
-        description: "This is another fun city",
-        link: "https://en.wikipedia.org/wiki/Busan"
+        name: "Arenal Volcano",
+        year: "7,000 years old",
+        description: "Most recently erupted in 1968.",
+        link: "https://en.wikipedia.org/wiki/Arenal_Volcano"
     },
     {
-        name: "Daegu",
-        year: "2.4 million",
-        description: "This is yet another fun city",
-        link: "https://en.wikipedia.org/wiki/Daegu"
+        name: "La Paz Waterfall",
+        year: "Product of volcanic erruptions over 7,000 years ago.",
+        description: "Located just off route 126.",
+        link: "https://en.wikipedia.org/wiki/La_Paz_Waterfall_(Costa_Rica"
     }
     
 ]
