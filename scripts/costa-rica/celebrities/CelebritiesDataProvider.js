@@ -1,21 +1,21 @@
 export const costaRicanCelebrities = [
     {
-        name: "Seoul",
-        occupation: "9.8 million",
-        description: "This is a fun city",
-        link: "https://en.wikipedia.org/wiki/Seoul"
+        name: "Joel Campbell",
+        occupation: "Soccer Player",
+        description: "Plays forward and wing for Costa Rica.",
+        link: "https://en.wikipedia.org/wiki/Joel_Campbell"
     },
     {
-        name: "Busan",
-        occupation: "3.4 million",
-        description: "This is another fun city",
-        link: "https://en.wikipedia.org/wiki/Busan"
+        name: "Chavela Vargas",
+        occupation: "Singer",
+        description: "Major contributor for Latin American music.",
+        link: "https://en.wikipedia.org/wiki/Chavela_Vargas"
     },
     {
-        name: "Daegu",
-        occupation: "2.4 million",
-        description: "This is yet another fun city",
-        link: "https://en.wikipedia.org/wiki/Daegu"
+        name: "Harry Shum Jr.",
+        occupation: "Actor",
+        description: "Best known for playing Mike Chang in Glee.",
+        link: "https://en.wikipedia.org/wiki/Harry_Shum_Jr."
     }
     
 ]
