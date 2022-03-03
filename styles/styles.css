@@ -18,7 +18,7 @@ Shades: mix base color with black. Increments of 10% opacity
 
 body {
     font-family: 'Raleway', sans-serif;
-    
+    background-color: #d9d9d9;
 }
 
 h1, h3 {
@@ -29,6 +29,10 @@ p {
     line-height: 125%;
 }
 
+a {
+    color: #52616B;
+    font-weight: bold;
+}
 
 
 .cities {
