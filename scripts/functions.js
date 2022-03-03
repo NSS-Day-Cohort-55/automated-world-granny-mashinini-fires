@@ -12,7 +12,7 @@ export const arrayObjectDisplay = (array) => {
                 <li>${item.name}</li>
                 <li>${item.population}</li>
                 <li>${item.description}</li>
-                <li>${item.link}</li>
+                <li><a href=${item.link}>More Info!<a></li>
                 `
             continue
         }
