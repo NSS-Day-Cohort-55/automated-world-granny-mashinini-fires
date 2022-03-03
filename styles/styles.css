@@ -77,8 +77,8 @@ menu a:hover {
     color: #f0f5f9;
 }
 
-menu a:active {
-    color: 0084f8;
+menu .navlink:active {
+    color: #0084f8;
 }
 
 menu .closebtn {
@@ -91,6 +91,8 @@ menu .closebtn {
 
 span {
     display: flex;
+    width: 100px;
+    font-weight: 600;
 }
 
 

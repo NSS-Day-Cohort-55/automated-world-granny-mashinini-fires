@@ -10,20 +10,21 @@
 <body>
 
         <header>
-           
+            <span id="openBtn" style="font-size:24px;cursor:pointer" onclick="openNav()">  &#9776; Menu</span>
+
             <!-- logo -->
             <img src="/images/logo.JPG" alt="Company name inside of an open circle." class="logo">
             <!-- navigation bar -->
             <menu id="myNav" class="navbar">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="index.html">Home</a>
-                    <a href="/pages/switzerland.html">Switzerland</a>
-                    <a href="/pages/costa-rica.html">Costa Rica</a>
-                    <a href="/pages/antigua.html">Antigua</a>
-                    <a href="/pages/south-korea.html">South Korea</a>
+                    <a  href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a class="navlink" href="index.html">Home</a>
+                    <a class="navlink" href="/pages/switzerland.html">Switzerland</a>
+                    <a class="navlink" href="/pages/costa-rica.html">Costa Rica</a>
+                    <a class="navlink" href="/pages/antigua.html">Antigua</a>
+                    <a class="navlink" href="/pages/south-korea.html">South Korea</a>
                     <p>&#169; The Granny Mashinini Fires</p>
             </menu>
-            <span id="openBtn" style="font-size:20px;cursor:pointer" onclick="openNav()">  &#9776; Menu</span>
+            
             <script>
                 function openNav() {
                     document.getElementById("myNav").style.width = "250px"; 
