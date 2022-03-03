@@ -18,19 +18,18 @@ Shades: mix base color with black. Increments of 10% opacity
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #f0f5f9;
+    color: #001b36;
 }
 
 h1, h3 {
     font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    background-color: ;
 }
 
 p {
     line-height: 125%;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
 }
 
 .cities {
@@ -66,7 +65,18 @@ ul li {
     list-style-type: circle;
 }
 
+<<<<<<< HEAD
 .logo {
   
   
+=======
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+>>>>>>> main
 }
