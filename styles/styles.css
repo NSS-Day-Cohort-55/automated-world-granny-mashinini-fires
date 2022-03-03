@@ -79,6 +79,10 @@ menu a:hover {
     color: #f0f5f9;
 }
 
+menu a:active {
+    color: 0084f8;
+}
+
 menu .closebtn {
     position: absolute;
     top: 0;
