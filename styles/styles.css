@@ -103,18 +103,9 @@ span {
     box-shadow: 1px 1px 10px rgba(0,0,0,.75);
     border-radius: 10px;
     position: static;
-    
+    display: flex;
+    flex-direction: column;
 }
-
-
-h3 {
-    margin: 5px;
-}
-
-ul li {
-    list-style-type: circle;
-}
-
 
 menu p {
     color: #818181;
@@ -123,6 +114,15 @@ menu p {
     margin-top: 50px;
 }    
 
+h3 {
+    margin: 5px;
+}
+
+ul li {
+    list-style-type: circle;
+}
+  
+  
 ul {
     display: flex;
     flex-direction: column;
