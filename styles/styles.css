@@ -18,19 +18,18 @@ Shades: mix base color with black. Increments of 10% opacity
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #f0f5f9;
-    color: #001b36;
+    
 }
 
 h1, h3 {
     font-family: 'Open Sans', sans-serif;
-    border-radius: 10px;
-    background-color: ;
 }
 
 p {
     line-height: 125%;
 }
+
+
 
 .cities {
     /* background-color: #FF8576; */
@@ -45,7 +44,55 @@ p {
 .citizens {
     /* background-color: #ff8576; */
     width: 85%;
+    }
+
+
+menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #001b36;
+    overflow-x: clip;
+    transition: 0.5s;
+    padding-top: 60px;
+    list-style-type: none;
+    margin-left: -50px;
+    opacity: 95%
 }
+
+
+menu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+menu a:hover {
+    color: #f0f5f9;
+}
+
+menu a:active {
+    color: 0084f8;
+}
+
+menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+span {
+    display: flex;
+}
+
 
 .infobox {
     background-color: #FF8576;
@@ -55,7 +102,17 @@ p {
     flex-wrap: wrap;
     box-shadow: 1px 1px 10px rgba(0,0,0,.75);
     border-radius: 10px;
+    position: static;
+    display: flex;
+    flex-direction: column;
 }
+
+menu p {
+    color: #818181;
+    font-size: small;
+    padding-left:30px;
+    margin-top: 50px;
+}    
 
 h3 {
     margin: 5px;

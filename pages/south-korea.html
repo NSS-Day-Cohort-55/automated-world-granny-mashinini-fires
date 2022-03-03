@@ -8,21 +8,40 @@
     <title>South Korea</title>
 </head>
 <body>
-    <header>
-        <!-- logo -->
-        <img src="/images/logo.JPG" alt="Company name inside of an open circle." class="logo">
-        <!-- navigation bar -->
-        <menu class="navbar">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/switzerland.html">Switzerland</a></li>
-            <li><a href="../pages/costa-rica.html">Costa Rica</a></li>
-            <li><a href="../pages/antigua.html">Antigua</a></li>
-            <!-- <li><a href="../pages/south-korea.html">South Korea</a></li> -->
-        </menu>
+    
+
+        <header>
+            <!-- logo -->
+            <img src="/images/logo.JPG" alt="Company name inside of an open circle." class="logo">
+            <!-- navigation bar -->
+            <menu id="myNav" class="navbar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="../index.html">Home</a>
+                <a href="/pages/switzerland.html">Switzerland</a>
+                <a href="/pages/costa-rica.html">Costa Rica</a>
+                <a href="/pages/antigua.html">Antigua</a>
+                <a href="/pages/south-korea.html">South Korea</a>
+                <p>&#169; The Granny Mashinini Fires</p>
+            </menu>
+            <span id="openBtn" style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+            <script>
+                function openNav() {
+                    document.getElementById("myNav").style.width = "250px"; 
+                    document.getElementById("openBtn").style.display = "hidden"; 
+                    document.getElementById("openBtn").style.color = "#f0f5f9";   
+                }
+                
+                function closeNav() {
+                    document.getElementById("myNav").style.width = "0";
+                    document.getElementById("openBtn").style.color = "#111";
+                    
+                }
+                </script>
+    
         <!-- country image -->
         <img src="/images/south-korea.png" class="country-img" alt="city skyline in the forground with hills topped by towers in the background" />
         <!-- country name use in a headline -->
-        <h1>Headline!</h1>
+        <h1>South Korea</h1>
     </header>
     <main>
         <div>
@@ -38,5 +57,6 @@
         <!-- copyright and team info -->
     </footer>
     <script type="module" src="../scripts/south-korea/southkoreamain.js"></script>
+    
 </body>
 </html>
