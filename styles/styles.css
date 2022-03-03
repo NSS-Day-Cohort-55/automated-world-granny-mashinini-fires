@@ -44,26 +44,27 @@ main {
 }
 
 .citizens {
-    background-color: red;
     /* background-color: #ff8576; */
     width: 85%;
     }
-}
+
 
 menu{
     height: 100%;
     width: 0;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
-    overflow-x: hidden;
+    background-color: #001b36;
+    overflow-x: clip;
     transition: 0.5s;
     padding-top: 60px;
     list-style-type: none;
-
+    margin-left: -50px;
+    opacity: 95%
 }
+
 
 menu a{
     padding: 8px 8px 8px 32px;
@@ -75,7 +76,7 @@ menu a{
 }
 
 menu a:hover {
-    color: #f1f1f1;
+    color: #f0f5f9;
 }
 
 menu .closebtn {
@@ -86,10 +87,7 @@ menu .closebtn {
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-    menu {padding-top: 15px;}
-    menu a {font-size: 18px;}
-}
+
 
 .infobox {
     background-color: #FF8576;
@@ -99,7 +97,10 @@ menu .closebtn {
     flex-wrap: wrap;
     box-shadow: 1px 1px 10px rgba(0,0,0,.75);
     border-radius: 10px;
+    position: static;
+    
 }
+
 
 h3 {
     margin: 5px;
@@ -107,4 +108,11 @@ h3 {
 
 ul li {
     list-style-type: circle;
+}
+
+menu p {
+    color: #818181;
+    font-size: small;
+    padding-left:30px;
+    margin-top: 50px;
 }

@@ -43,3 +43,15 @@ export const arrayObjectDisplay = (array) => {
     }
 }
 
+//DO THIS AS A STRETCH GOAL
+
+// export const openNav = () => {
+//     document.getElementById("myNav").style.width = "250px"; 
+//     document.getElementById("openBtn").style.display = "hidden"; 
+//     document.getElementById("openBtn").style.color = "#f0f5f9";   
+// }
+
+// export const closeNav = () => {
+//     document.getElementById("myNav").style.width = "0";
+//     document.getElementById("openBtn").style.color = "#111";   
+// }

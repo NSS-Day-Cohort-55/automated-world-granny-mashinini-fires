@@ -8,33 +8,32 @@
     <title>Countries to Visit!</title>
 </head>
 <body>
-    <div id="main">
 
         <header>
             <!-- logo -->
             <img src="" class="logo"/>
             <!-- navigation bar -->
-            <menu id="myNav" class=".navbar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="/pages/switzerland.html">Switzerland</a></li>
-                <li><a href="/pages/costa-rica.html">Costa Rica</a></li>
-                <li><a href="/pages/antigua.html">Antigua</a></li>
-                <li><a href="/pages/south-korea.html">South Korea</a></li>
-                
+            <menu id="myNav" class="navbar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="/pages/switzerland.html">Switzerland</a>
+                    <a href="/pages/costa-rica.html">Costa Rica</a>
+                    <a href="/pages/antigua.html">Antigua</a>
+                    <a href="/pages/south-korea.html">South Korea</a>
+                    <p id="cright">&#169; The Granny Mashinini Fires</p>
             </menu>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <span id="openBtn" style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
             <script>
                 function openNav() {
-                    document.getElementById("myNav").style.width = "250px";
-                    document.getElementById("main").style.marginLeft = "250px";
-                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                    document.getElementById("myNav").style.width = "250px"; 
+                    document.getElementById("openBtn").style.display = "hidden"; 
+                    document.getElementById("openBtn").style.color = "#f0f5f9";   
                 }
                 
                 function closeNav() {
                     document.getElementById("myNav").style.width = "0";
-                    document.getElementById("main").style.marginLeft = "0";
-                    document.body.style.backgroundColor = "white";
+                    document.getElementById("openBtn").style.color = "#111";
+                    
                 }
                 </script>
         
@@ -56,6 +55,6 @@
     </footer>
     <script type="module" src="/scripts/functions.js"></script>
 
-    </div>
+    
 </body>
 </html>
