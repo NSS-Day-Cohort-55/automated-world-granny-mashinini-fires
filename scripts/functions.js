@@ -42,3 +42,4 @@ export const arrayObjectDisplay = (array) => {
         }
     }
 }
+
