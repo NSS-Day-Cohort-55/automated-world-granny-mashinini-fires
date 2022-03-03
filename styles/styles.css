@@ -132,3 +132,10 @@ div{
     display: flex;
     flex-direction: row;
 }
+
+.countryname {
+    background-color: #47c2b1;
+    padding: .5em 0 .5em .5em;
+    border-radius: 10px;
+    margin-right: .5em;
+}
