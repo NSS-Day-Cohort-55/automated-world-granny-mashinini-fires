@@ -31,17 +31,37 @@ p {
 main {
     display: flex;
     flex-direction: row;
-
 }
 
 .cities {
-    background-color: limegreen;
+    /* background-color: #FF8576; */
+    width: 85%;
 }
 
 .landmarks {
-    background-color: aqua;
+    /* background-color: #ff8576; */
+    width: 85%;
 }
 
 .citizens {
-    background-color: red;
+    /* background-color: #ff8576; */
+    width: 85%;
+}
+
+.infobox {
+    background-color: #FF8576;
+    margin: 5px;
+    width: 32%;
+    min-width: 50px;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.75);
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+ul li {
+    list-style-type: circle;
 }
