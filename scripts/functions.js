@@ -10,7 +10,7 @@ export const arrayObjectDisplay = (array) => {
             const citiesHTML = document.querySelector(".cities")
             citiesHTML.innerHTML += `
                 <li><b>${item.name}</b></li>
-                <li>${item.population}</li>
+                <li>Population: ${item.population}</li>
                 <li>${item.description}</li>
                 <li><a href='${item.link}' target='_blank'>More Information</a></li><br>
                 `
