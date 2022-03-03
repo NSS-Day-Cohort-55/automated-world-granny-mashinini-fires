@@ -18,6 +18,7 @@ Shades: mix base color with black. Increments of 10% opacity
 
 body {
     font-family: 'Raleway', sans-serif;
+    
 }
 
 h1, h3 {
@@ -88,6 +89,9 @@ menu .closebtn {
     margin-left: 50px;
 }
 
+span {
+    display: flex;
+}
 
 
 .infobox {
@@ -111,9 +115,21 @@ ul li {
     list-style-type: circle;
 }
 
+
 menu p {
     color: #818181;
     font-size: small;
     padding-left:30px;
     margin-top: 50px;
+}    
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+
 }
