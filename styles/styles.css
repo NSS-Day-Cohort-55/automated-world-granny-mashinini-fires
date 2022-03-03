@@ -13,6 +13,20 @@ Tints: mix base color with white. Increments of 10% opacity
 
 Shades: mix base color with black. Increments of 10% opacity
 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 125%;
+}
 
 main {
     display: flex;
