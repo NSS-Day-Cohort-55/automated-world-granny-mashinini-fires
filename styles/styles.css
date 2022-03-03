@@ -65,11 +65,11 @@ ul li {
     list-style-type: circle;
 }
 
-<<<<<<< HEAD
 .logo {
+    
+}
   
   
-=======
 ul {
     display: flex;
     flex-direction: column;
@@ -78,5 +78,4 @@ ul {
 div{
     display: flex;
     flex-direction: row;
->>>>>>> main
 }
