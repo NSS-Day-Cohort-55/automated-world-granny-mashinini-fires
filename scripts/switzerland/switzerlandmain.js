@@ -1,3 +1,11 @@
-import { swissCities } from "./cities/CityDataProvider";
-import { swissLandmarks } from "./landmarks/LandmarkDataProvider";
-import { swissCelebrities } from "./celebrities/CelebritiesDataProvider";
+import { swissCities } from "./cities/CityDataProvider.js";
+import { swissLandmarks } from "./landmarks/LandmarkDataProvider.js";
+import { swissCelebrities } from "./celebrities/CelebritiesDataProvider.js";
+import { arrayObjectDisplay } from "../functions.js";
+
+
+arrayObjectDisplay(swissCities)
+
+arrayObjectDisplay(swissLandmarks)
+
+arrayObjectDisplay(swissCelebrities)
