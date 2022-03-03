@@ -1,8 +1,11 @@
-import { koreanCities } from "./cities/CityDataProvider";
-import { koreanLandmarks } from "./landmarks/LandmarkDataProvider";
-import { koreanCelebrities } from "./celebrities/CelebritiesDataProvider";
-import { arrayObjectDisplay } from "../functions";
+import { koreanCities } from "./cities/CityDataProvider.js";
+import { koreanLandmarks } from "./landmarks/LandmarkDataProvider.js";
+import { koreanCelebrities } from "./celebrities/CelebritiesDataProvider.js";
+import { arrayObjectDisplay } from "../functions.js";
 
-console.log(arrayObjectDisplay(koreanCities))
-console.log(arrayObjectDisplay(koreanLandmarks))
-console.log(arrayObjectDisplay(koreanCelebrities))
+
+arrayObjectDisplay(koreanCities)
+
+arrayObjectDisplay(koreanLandmarks)
+
+arrayObjectDisplay(koreanCelebrities)

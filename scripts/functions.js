@@ -8,7 +8,7 @@ export const arrayObjectDisplay = (array) => {
         //check for cities
         if (item.population){
             const citiesHTML = document.querySelector(".cities")
-            citiesHTML.innerHTML = `
+            citiesHTML.innerHTML += `
                 <li>${item.name}</li>
                 <li>${item.population}</li>
                 <li>${item.description}</li>
@@ -20,7 +20,7 @@ export const arrayObjectDisplay = (array) => {
         //check for landmarks
         if (item.year){
             const landmarksHTML = document.querySelector(".landmarks")
-            landmarksHTML.innerHTML = `
+            landmarksHTML.innerHTML += `
                 <li>${item.name}</li>
                 <li>${item.year}</li>
                 <li>${item.description}</li>
@@ -32,7 +32,7 @@ export const arrayObjectDisplay = (array) => {
         //check for citizens
         if (item.occupation){
             const citizensHTML = document.querySelector(".citizens")
-            citizensHTML.innerHTML = `
+            citizensHTML.innerHTML += `
                 <li>${item.name}</li>
                 <li>${item.occupation}</li>
                 <li>${item.description}</li>
