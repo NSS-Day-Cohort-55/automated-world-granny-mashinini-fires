@@ -8,13 +8,13 @@ export const costaRicanCities = [
     {
         name: "Cartago",
         population: "156,600",
-        description: "Country's first successful establishment",
+        description: "Country's first successful establishment.",
         link: "https://en.wikipedia.org/wiki/Cartago,_Costa_Rica"
     },
     {
         name: "Limon",
         population: "61,072",
-        description: "Hosts Carnaval every year in October",
+        description: "Hosts Carnaval every year in October.",
         link: "https://en.wikipedia.org/wiki/Lim%C3%B3n"
     }
     
