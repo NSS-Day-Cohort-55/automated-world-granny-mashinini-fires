@@ -12,7 +12,7 @@ export const arrayObjectDisplay = (array) => {
                 <li>${item.name}</li>
                 <li>${item.population}</li>
                 <li>${item.description}</li>
-                <li>${item.link}</li>
+                <li><a href='${item.link}' target='_blank'>More Information</a></li>
                 `
             continue
         }
@@ -24,7 +24,7 @@ export const arrayObjectDisplay = (array) => {
                 <li>${item.name}</li>
                 <li>${item.year}</li>
                 <li>${item.description}</li>
-                <li>${item.link}</li>
+                <li><a href='${item.link}' target='_blank'>More Information</a></li>
                 `
             continue
         }
@@ -36,7 +36,7 @@ export const arrayObjectDisplay = (array) => {
                 <li>${item.name}</li>
                 <li>${item.occupation}</li>
                 <li>${item.description}</li>
-                <li>${item.link}</li>
+                <li><a href='${item.link}' target='_blank'>More Information</a></li>
                 `
             continue
         }
