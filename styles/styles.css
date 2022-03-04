@@ -164,6 +164,7 @@ div{
 .infobox {
     background-color: #FF8576;
     margin: 5px;
+    padding: 11px;
     width: 32%;
     min-width: 50px;
     flex-wrap: wrap;
@@ -180,14 +181,17 @@ div{
 .infobox ul {
     color: black;
     overflow: hidden;
+    ;
 }
 
 .infobox:hover {
     height: fit-content; 
+    transition: 0.5s;
 }
 
 .infobox ul:hover {
     color: #111;
+    
 }
 
 .countryBtn {
@@ -236,17 +240,17 @@ div{
   transform: translate(0, 0);
 }
 
-.button-56:active {
+.countryBtn:active {
   background-color: #FF8576;
   outline: 0;
 }
 
-.button-56:hover {
+.countryBtn:hover {
   outline: 0;
 }
 
 @media (min-width: 768px) {
-  .button-56 {
+  .countryBtn {
     padding: 0 40px;
   }
 }
