@@ -46,7 +46,6 @@ img {
 .cities {
     /* background-color: #FF8576; */
     width: 85%;
-    visibility: hidden;
 }
 
 .landmarks {
@@ -86,9 +85,8 @@ menu a{
 
 menu a:hover {
     color: #f0f5f9;
-    
-
 }
+
 menu a:active {
     color:#47c2b1;
 }
@@ -160,9 +158,5 @@ div{
 }
 
 .infobox:hover {
-    height: fit-content;
-}
-
-.infobox:first-child {
-    visibility: visible;
+    height: fit-content; 
 }
