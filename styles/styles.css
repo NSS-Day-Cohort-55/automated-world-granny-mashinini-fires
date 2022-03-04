@@ -25,6 +25,10 @@ h1, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+    margin: 5px;
+}
+
 p {
     line-height: 125%;
 }
@@ -33,7 +37,6 @@ a {
     color: #52616B;
     font-weight: bold;
 }
-
 
 .cities {
     /* background-color: #FF8576; */
@@ -49,7 +52,6 @@ a {
     /* background-color: #ff8576; */
     width: 85%;
     }
-
 
 menu{
     height: 100%;
@@ -67,7 +69,6 @@ menu{
     opacity: 95%
 }
 
-
 menu a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -81,7 +82,7 @@ menu a:hover {
     color: #f0f5f9;
 }
 
-menu .navlink:active {
+menu a:active {
     color: #0084f8;
 }
 
@@ -98,7 +99,6 @@ span {
     width: 100px;
     font-weight: 600;
 }
-
 
 .infobox {
     background-color: #FF8576;
@@ -120,12 +120,9 @@ menu p {
     margin-top: 50px;
 }    
 
-h3 {
-    margin: 5px;
-}
-
 ul li {
     list-style-type: circle;
+    flex-wrap: wrap;
 }
   
   
@@ -144,4 +141,12 @@ div{
     padding: .5em 0 .5em .5em;
     border-radius: 10px;
     margin-right: .5em;
+}
+
+.logo {
+    width: 100%;
+}
+
+.country-img {
+    width: 100%;
 }
