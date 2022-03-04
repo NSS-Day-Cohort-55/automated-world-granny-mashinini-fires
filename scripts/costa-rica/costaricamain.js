@@ -5,9 +5,7 @@ import { costaRicanCelebrities } from "./celebrities/CelebritiesDataProvider.js"
 import { arrayObjectDisplay } from "../functions.js";
 
 
-let newFullArray = costaRicanCities.concat(costaRicanLandmarks)
-newFullArray = newFullArray.concat(costaRicanCelebrities)
-
+let newFullArray = costaRicanCities.concat(costaRicanLandmarks, costaRicanCelebrities)
 
 arrayObjectDisplay(newFullArray)
 
