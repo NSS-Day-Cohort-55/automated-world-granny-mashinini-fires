@@ -78,13 +78,14 @@ menu{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #001b36;
+    background-color: #58c2f1;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
     list-style-type: none;
     margin-left: -50px;
-    opacity: 95%
+    opacity: 95%;
+    border-radius: 10px;
 }
 
 menu a{
