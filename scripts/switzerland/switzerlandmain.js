@@ -3,9 +3,15 @@ import { swissLandmarks } from "./landmarks/LandmarkDataProvider.js";
 import { swissCelebrities } from "./celebrities/CelebritiesDataProvider.js";
 import { arrayObjectDisplay } from "../functions.js";
 
+let newFullArray = swissCities.concat(swissLandmarks)
+newFullArray = newFullArray.concat(swissCelebrities)
 
-arrayObjectDisplay(swissCities)
 
-arrayObjectDisplay(swissLandmarks)
+arrayObjectDisplay(newFullArray)
 
-arrayObjectDisplay(swissCelebrities)
+
+// arrayObjectDisplay(swissCities)
+
+// arrayObjectDisplay(swissLandmarks)
+
+// arrayObjectDisplay(swissCelebrities)
