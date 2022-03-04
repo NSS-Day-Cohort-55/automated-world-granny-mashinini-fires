@@ -3,8 +3,7 @@ import { koreanLandmarks } from "./landmarks/LandmarkDataProvider.js";
 import { koreanCelebrities } from "./celebrities/CelebritiesDataProvider.js";
 import { arrayObjectDisplay } from "../functions.js";
 
-let newFullArray = koreanCities.concat(koreanLandmarks)
-newFullArray = newFullArray.concat(koreanCelebrities)
+let newFullArray = koreanCities.concat(koreanLandmarks, koreanCelebrities)
 
 
 arrayObjectDisplay(newFullArray)
