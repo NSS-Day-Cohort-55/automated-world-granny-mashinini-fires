@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #52616B;
+    color: #52616b;
     font-weight: bold;
 }
 
@@ -115,21 +115,6 @@ span {
     font-weight: 600;
 }
 
-.infobox {
-    background-color: #FF8576;
-    margin: 5px;
-    width: 32%;
-    min-width: 50px;
-    flex-wrap: wrap;
-    border: 2px solid #111;
-    box-shadow: 8px 6px 0px #111;
-    border-radius: 10px;
-    position: static;
-    display: flex;
-    flex-direction: column;
-    height: 35px;
-    transition: 0.3s;
-}
 
 menu p {
     color: #818181;
@@ -142,7 +127,6 @@ ul li {
     list-style-type: circle;
     flex-wrap: wrap;
 }
-  
   
 ul {
     display: flex;
@@ -174,8 +158,33 @@ div{
     width: 100%;
 }
 
+.infobox {
+    background-color: #FF8576;
+    margin: 5px;
+    width: 32%;
+    min-width: 50px;
+    flex-wrap: wrap;
+    border: 2px solid #111;
+    box-shadow: 8px 6px 0px #111;
+    border-radius: 10px;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.infobox ul {
+    color: black;
+    overflow: hidden;
+}
+
 .infobox:hover {
     height: fit-content; 
+}
+
+.infobox ul:hover {
+    color: #111;
 }
 
 .countryBtn {
@@ -203,7 +212,6 @@ div{
   -webkit-user-select: none;
   touch-action: manipulation;
   margin: 10px;
-
 }
 
 .countryBtn:after {
@@ -245,4 +253,7 @@ div{
     justify-content: space-around;
     flex-wrap: wrap;
 }
- 
+
+.spacer {
+    height: 500px;
+}
