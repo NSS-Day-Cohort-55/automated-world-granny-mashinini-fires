@@ -23,6 +23,7 @@ body {
 
 h1, h3 {
     font-family: 'Open Sans', sans-serif;
+    opacity: 85%;
 }
 
 h3 {
@@ -38,9 +39,14 @@ a {
     font-weight: bold;
 }
 
+img {
+    width: 100%
+}
+
 .cities {
     /* background-color: #FF8576; */
     width: 85%;
+    visibility: hidden;
 }
 
 .landmarks {
@@ -51,7 +57,7 @@ a {
 .citizens {
     /* background-color: #ff8576; */
     width: 85%;
-    }
+}
 
 menu{
     height: 100%;
@@ -61,7 +67,7 @@ menu{
     top: 0;
     left: 0;
     background-color: #001b36;
-    overflow-x: clip;
+    overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
     list-style-type: none;
@@ -72,7 +78,7 @@ menu{
 menu a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 21px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -80,10 +86,11 @@ menu a{
 
 menu a:hover {
     color: #f0f5f9;
-}
+    
 
+}
 menu a:active {
-    color: #0084f8;
+    color:#47c2b1;
 }
 
 menu .closebtn {
@@ -111,6 +118,7 @@ span {
     position: static;
     display: flex;
     flex-direction: column;
+    height: 35px;
 }
 
 menu p {
@@ -149,4 +157,12 @@ div{
 
 .country-img {
     width: 100%;
+}
+
+.infobox:hover {
+    height: fit-content;
+}
+
+.infobox:first-child {
+    visibility: visible;
 }
